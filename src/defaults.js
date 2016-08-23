@@ -1,72 +1,45 @@
 module.exports = [
     {
         id: "file",
-        caption: "File",
+        caption: "文件",
         items: [
             {
-                caption: "New File",
+                caption: "新建文件",
                 command: "file.open"
             },
             { type: "separator" },
             {
-                caption: "Save",
+                caption: "保存",
                 command: "editor.save"
             },
             {
-                caption: "Save All",
+                caption: "保存所有",
                 command: "editor.save.all"
             },
             { type: "separator" },
             {
-                caption: "Settings",
+                caption: "设置",
                 command: "settings.open"
             }
         ]
     },
     {
         id: "view",
-        caption: "View",
+        caption: "查看",
         items: [
             {
-                caption: "Toggle Menu Bar",
+                caption: "打开/关闭菜单栏",
                 command: "view.menubar.toggle"
             }
         ]
     },
     {
         id: "tools",
-        caption: "Tools",
+        caption: "工具",
         items: [
             {
-                caption: "Command Palette...",
+                caption: "命令...",
                 command: "palette.open"
-            }
-        ]
-    },
-    {
-        id: "help",
-        caption: "Help",
-        position: 100,
-        items: [
-            {
-                caption: "About",
-                command: "application.about"
-            },
-            {
-                caption: "Welcome",
-                command: "application.welcome"
-            },
-            {
-                caption: "Releases Notes",
-                command: "application.changes"
-            },
-            {
-                caption: "Documentation",
-                command: "application.help"
-            },
-            {
-                caption: "Send Feedback",
-                command: "application.feedback"
             }
         ]
     }
